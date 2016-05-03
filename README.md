@@ -11,14 +11,17 @@
 
 ### MySQL 
 - Start
+```code
 $mysqld stop
 $mysql.server start
 It must show "SUCCESS!". To connect to mysql, using this for first time login.
+```
 
 - Login
 $mysql -u root
 
 - Show Database
+```sql 
 mysql> show databases;
 +--------------------+
 | Database           |
@@ -29,6 +32,7 @@ mysql> show databases;
 | performance_schema |
 | sys                |
 +--------------------+
+```
 
 - Create Database
 
