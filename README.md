@@ -18,6 +18,18 @@ It must show "SUCCESS!". To connect to mysql, using this for first time login.
 - Login
 $mysql -u root
 
+- Show Database
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| leetcode           |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+
 - Create Database
 
 ```sql 
